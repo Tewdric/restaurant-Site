@@ -1,0 +1,66 @@
+.contato{
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    gap: 10px;
+    
+    margin-bottom: 1rem;
+    span{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        a{
+            width: 100%;
+        }
+    }
+
+    & a{
+        margin-top: 1rem;
+        text-decoration: none;
+        width: 50%;
+        color: black;
+        gap: 1rem;
+    }
+
+   .button{
+
+        align-items: center;
+        place-self: center;
+        width: 70%;
+
+        button{
+            width: 70%;
+            display: flex;
+            flex-direction: row;
+            
+
+            border-radius: 10px;
+            background-color:#64b161 ;
+            
+            & a{
+                color: aliceblue;
+                text-decoration: none;
+                font-weight: 900;
+                margin: auto;
+                width: 50%;
+            }
+
+            & img{
+                margin: auto;
+                width: 40px;
+                height: 40px;
+            }
+        }
+
+        button:hover{
+            background-color: #285f28;
+          
+        }
+   }
+
+}
