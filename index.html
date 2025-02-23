@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icon_restaurante.png" type="image/x-icon">
+    <title>Puro Sabor</title>
+
+    <link rel="stylesheet" href="./assets/css/componentes/nav-bar.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/componentes/section-banner.css">
+    <link rel="stylesheet" href="./assets/css/componentes/section-sobre.css">
+    <link rel="stylesheet" href="./assets/css/componentes/section-cardapio.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="btn-menu-mobile">
+            <img src="./img/menu_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="logo">
+        </div>
+        <picture class="logo">
+            <img src="./img/icon_restaurante.png" alt="logo">
+            <h1>Puro Sabor</h1>
+        </picture>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#cardapio">Cardápio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="">Endereço</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="banner">
+            <picture>
+                <img src="./img/aparmegiana-panela.jpeg" alt="banner">
+                <span class="text">
+                    <h1>Somos um restaurante de comida caseira</h1>
+                    <p>Não deixe de conhecer nosso cardápio com várias opções de pratos deliciosos</p>
+                </span>
+            </picture>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <div class="sobre-nos">
+                <h1>Sobre nós</h1>
+                <p>Somos um resturante familiar, há dois anos que oferecemos uma comida caseira para você, visando não apenas a qualidade dos nossos pratos, mas também na satisfação dos nossos clientes. 
+                Nosso foco é no delivery, mas caso queira fazer um pedido no local, estamos abertos para você.
+                </p>
+            </div>
+            <img src="./img/carreteiro-ovo.jpeg" alt="carreteiro-ovo">
+        </section>
+
+        <section id="cardapio" class="cardapio">
+            <h1>Cardápio</h1>
+            <div class="carrossel-cardapio">
+                <img src="./img/aparmegiana-panela.jpeg" alt="aparmegiana-panela" class="active">
+                <img src="./img/aparmegiana-batata.jpeg" alt="aparmegiana-batata">
+                <img src="./img/assado-maionese.jpeg" alt="assado-maionese">
+                <img src="./img/feijoada.jpeg" alt=" feijoada">
+                <div class="buttons">
+                    <button onclick="prevSlide()">❮</button>
+                    <button onclick="nextSlide()">❯</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <script src="./assets/js/carrossel.js"></script>
+</body>
+</html>
