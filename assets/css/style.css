@@ -8,6 +8,7 @@
     --color-primary: #fff;
 }
 
+
 html{
     scroll-behavior: smooth;
 }
@@ -99,3 +100,5 @@ footer{
         }
     }
 }
+
+
